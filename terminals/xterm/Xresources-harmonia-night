@@ -1,0 +1,28 @@
+! Harmonia "day" colour scheme for XTerm and similar applications
+! Copyright (C) 2021 Denys Rtveliashvili <denys@rtveliashvili.name>
+
+! When starting XTerm, please add +pc option to disable PC-style of showing bold text as "bold" colour
+
+
+*Foreground: #BDB7B5
+*Background: #222020
+*color0: #181717
+*color1: #A65354
+*color2: #497F44
+*color3: #7B7120
+*color4: #5B70A6
+*color5: #96568E
+*color6: #0D8181
+*color7: #DDD5D3
+*color8: #4A4746
+*color9: #E37376
+*color10: #66AE60
+*color11: #AA9C30
+*color12: #7E9BE3
+*color13: #CE78C3
+*color14: #15B1B1
+*color15: #FDF4F2
+*cursorColor: #EDE4E3
+*allowBoldFonts: true
+*pointerColor: #EDE4E3
+*pointerColorBackground: #2E2C2B
