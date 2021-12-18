@@ -246,3 +246,11 @@ When producing colours for the default text and background, colourfulness of zer
 This means that the resulting colours are shades of gray. Although to be precise, the complex transformations on the
 path from CIECAM02's JCh space to sRGB mean that the resulting colours do not necessarily have identical values
 of red, green, and blue components.
+
+## Acknowledgements
+
+This work is based on [CIECAM02 model](https://en.wikipedia.org/wiki/CIECAM02)
+by the International Commission on Illumination (CIE).
+
+Also special thanks for an excellent colour space library [colorspacious](https://github.com/njsmith/colorspacious).
+Without it, the work of creating palettes would have been very hard indeed.
