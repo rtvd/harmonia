@@ -5,24 +5,30 @@
 
 There is no shortage of colour schemes for terminals and other programs. So why another one?
 
-None of the ones that I saw felt satisfactory, and I have seen lots.
+None that I saw felt satisfactory, and I have seen lots.
 When I started analysing the reasons for that, I came to a conclusion that a good colour scheme would have to take
-into account multiple of diverse factors, and there appears to be no colour scheme which does it satisfactory.
+into account a variety of diverse factors, and there appears to be no colour scheme which does it satisfactory.
 I am working with computers around 12 hours a day, so for me it is crucially important that my eyes stay healthy.
-That's why I have decided to make my humble attempt at improving the situation.
+That is why I have decided to make my humble attempt at improving the situation.
 
 My background (the relevant parts of it) is mostly in mathematics, biology, and computers.
 I am not a designer, and I assume that my eyes are not a perfect tool of measurement. So in order to create new palettes
-I have defined a set of requirements and followed them, relying primarily on mathematical relations rather than eyes.
+I have defined a set of requirements (see below) and followed them, relying primarily on mathematical relations rather
+than eyes.
 
-Harmonia is a colour scheme, and it is envisioned to have three parts:
+Harmonia will eventually have three parts:
 1. Palettes for terminals, providing precise colours for standards-defined possible colour values.
 2. Colour assignments for terminal applications, linking semantics of text to standards-defined possible colour values.
 3. Colour scheme for text documents, providing colour palette and specific instructions on how to use it in various
 code and text editors.
 
-The latter may also be used wider, such as in website development, while the former is naturally constrained by desire
-to follow the existing standards with precision.
+Harmonia also has two modes: "day" and "night".
+
+**"Harmonia day"** is for casual use in a well-lit environment:
+![Harmonia "day"](./terminals/Harmonia-day-demo.png)
+
+**"Harmonia night"** is more suitable for use in dark environments:
+![Harmonia "night"](./terminals/Harmonia-night-demo.png)
 
 ## Palettes for Terminals
 
