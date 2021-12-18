@@ -26,7 +26,9 @@ to follow the existing standards with precision.
 
 ## Palettes for Terminals
 
-[Palette for xterm and similar application](./terminals/xterm/)
+[Palettes for xterm and similar application](./terminals/xterm/)
+
+[Palettes for xfce4 terminal](./terminals/xfce4-terminal/)
 
 ## Colour Assignment for Terminal Applications
 

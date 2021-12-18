@@ -1,0 +1,19 @@
+; Harmonia "night" colour scheme for XTerm and similar applications
+; Copyright (C) 2021 Denys Rtveliashvili <denys@rtveliashvili.name>
+
+; Put this file into ~/.config/xfce4/terminal/colorscheme directory.
+; That should allow you to see the colour scheme among colour presets.
+
+[Scheme]
+Name=Harmonia (night)
+ColorForeground=#BDB7B5
+ColorBackground=#222020
+ColorCursorUseDefault=FALSE
+ColorCursor=#EDEDE4E4E3E3
+ColorCursorForeground=#161615151515
+ColorPalette=#181717;#A65354;#497F44;#7B7120;#5B70A6;#96568E;#0D8181;#DDD5D3;#4A4746;#E37376;#66AE60;#AA9C30;#7E9BE3;#CE78C3;#15B1B1;#FDF4F2
+ColorBoldUseDefault=TRUE
+ColorBoldIsBright=FALSE
+ColorSelectionUseDefault=FALSE
+ColorSelection=#2E2E2C2C2B2B
+ColorSelectionBackground=#90908B8B8A8A
