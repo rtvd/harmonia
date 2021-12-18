@@ -13,8 +13,12 @@ For testing purposes, you can load the files manually and see if your xterm has 
 
 ```shell
 cat Xresources-harmonia-day | xrdb
-xterm 
+xterm +pc
 ```
+
+*Note: `+pc` tells xterm to avoid PC behaviour where bold text is simulated by choosing a bright colour.
+Any modern terminal running in a graphical environment (and perhaps even some working in a pure text mode)
+should be capable of using actual bold fonts.*
 
 ## Colour Schemes
 

@@ -32,6 +32,8 @@ Harmonia also has two modes: "day" and "night".
 
 ## Palettes for Terminals
 
+[Palettes for KDE Konsole](./terminals/konsole/)
+
 [Palettes for xterm and similar application](./terminals/xterm/)
 
 [Palettes for xfce4 terminal](./terminals/xfce4-terminal/)

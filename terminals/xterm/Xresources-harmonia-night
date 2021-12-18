@@ -1,5 +1,6 @@
 ! Harmonia "day" colour scheme for XTerm and similar applications
 ! Copyright (C) 2021 Denys Rtveliashvili <denys@rtveliashvili.name>
+! https://github.com/rtvd/harmonia
 
 ! When starting XTerm, please add +pc option to disable PC-style of showing bold text as "bold" colour
 

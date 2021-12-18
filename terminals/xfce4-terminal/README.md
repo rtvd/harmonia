@@ -5,8 +5,8 @@
 
 It should be enough to put the files into ~/.config/xfce4/terminal/colorscheme directory.
 
-After that you could be select the colour present by right-clicking on the terminal, and then going to
-"Preferences ..." > "Colours" > "Load presets ..."
+After that you could be select the colour preset by right-clicking on the terminal, and then going to
+"Preferences ..." > "Colours" > "Load presets ...".
 
 ## Colour Schemes
 

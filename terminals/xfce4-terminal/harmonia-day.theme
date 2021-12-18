@@ -1,5 +1,6 @@
-; Harmonia "day" colour scheme for XTerm and similar applications
+; Harmonia "day" colour scheme for xfce4 terminal
 ; Copyright (C) 2021 Denys Rtveliashvili <denys@rtveliashvili.name>
+; https://github.com/rtvd/harmonia
 
 ; Put this file into ~/.config/xfce4/terminal/colorscheme directory.
 ; That should allow you to see the colour scheme among colour presets.
