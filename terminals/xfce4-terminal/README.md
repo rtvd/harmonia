@@ -20,15 +20,15 @@ Please download here:
 ### Harmonia "day"
 
 Demonstration of ANSI colours:
-[![Harmonia "day", ANSI colours](ANSI-colours-Harmonia-day.png)](harmonia-day.theme)
+[![Harmonia "day", ANSI colours](ANSI-colours-Harmonia-day.png)](ANSI-colours-Harmonia-day.png)
 
 Text legibility test:
-[![Harmonia "day", ANSI colours](Text-legibility-Harmonia-day.png)](harmonia-day.theme)
+[![Harmonia "day", ANSI colours](Text-legibility-Harmonia-day.png)](Text-legibility-Harmonia-day.png)
 
 ### Harmonia "night"
 
 Demonstration of ANSI colours:
-[![Harmonia "night", ANSI colours](ANSI-colours-Harmonia-night.png)](harmonia-night.theme)
+[![Harmonia "night", ANSI colours](ANSI-colours-Harmonia-night.png)](ANSI-colours-Harmonia-night.png)
 
 Text legibility test:
-[![Harmonia "night", ANSI colours](Text-legibility-Harmonia-night.png)](harmonia-night.theme)
+[![Harmonia "night", ANSI colours](Text-legibility-Harmonia-night.png)](Text-legibility-Harmonia-night.png)

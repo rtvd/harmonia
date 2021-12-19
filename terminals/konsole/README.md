@@ -22,7 +22,7 @@ Please download here:
 ### Screenshots
 
 Palette for well-lit environments:
-[![Harmonia "day" demo](Harmonia-day.png)](harmonia-day.colorscheme)
+[![Harmonia "day" demo](Harmonia-day.png)](Harmonia-day.png)
 
 Palette for dark environments:
-[![Harmonia "night" demo](Harmonia-night.png)](harmonia-night.colorscheme)
+[![Harmonia "night" demo](Harmonia-night.png)](Harmonia-night.png)
