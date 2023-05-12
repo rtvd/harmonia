@@ -2,19 +2,19 @@
 ; Copyright (C) 2021 Denys Rtveliashvili <denys@rtveliashvili.name>
 ; https://github.com/rtvd/harmonia
 
-; Put this file into ~/.config/xfce4/terminal/colorscheme directory.
+; Put this file into ~/.config/xfce4/terminal/colorschemes directory.
 ; That should allow you to see the colour scheme among colour presets.
 
 [Scheme]
 Name=Harmonia (day)
-ColorForeground=#474545
-ColorBackground=#F2EEED
+ColorForeground=#504F4E
+ColorBackground=#F5F0EF
 ColorCursorUseDefault=FALSE
-ColorCursor=#000000000000
-ColorCursorForeground=#FBFBF6F6F5F5
-ColorPalette=#010101;#B75F61;#518E4F;#887F28;#657FB9;#A663A0;#0E9091;#CAC6C5;#514F4F;#FB888A;#77C574;#BEB243;#90B1FB;#E48EDB;#35C8C8;#FBF6F5
+ColorCursor=#212121212020
+ColorCursorForeground=#FFFFFAFAF9F9
+ColorPalette=#010101;#9B504F;#417944;#82641E;#59699E;#89558C;#10797E;#BFBCBB;#3C3A3A;#EA7B7A;#65B76A;#C59932;#89A0ED;#CF82D4;#1FB8BF;#FBF6F5
 ColorBoldUseDefault=TRUE
 ColorBoldIsBright=FALSE
 ColorSelectionUseDefault=FALSE
 ColorSelection=#EAEAE6E6E5E5
-ColorSelectionBackground=#737371717070
+ColorSelectionBackground=#858582828282
