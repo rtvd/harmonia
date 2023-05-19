@@ -16,13 +16,10 @@ I am not a designer, and I assume that my eyes are not a perfect tool of measure
 I have defined a set of requirements (see below) and followed them, relying primarily on mathematical relations rather
 than eyes.
 
-Harmonia will eventually have three parts:
-1. Palettes for terminals, providing precise colours for standards-defined possible colour values.
-2. Colour assignments for terminal applications, linking semantics of text to standards-defined possible colour values.
-3. Colour scheme for text documents, providing colour palette and specific instructions on how to use it in various
-code and text editors.
+There are two types of Harmonia palettes: Harmonia for ANSI terminals and Harmonia for documents.
 
-Harmonia also has two modes: "day" and "night".
+Each palette has two versions: "day" (for normal use) and "night" (a light on dark scheme for very dark 
+environments):
 
 **"Harmonia day"** is for casual use in a well-lit environment:
 ![Harmonia "day"](./terminals/Harmonia-day-demo.png)
@@ -30,7 +27,13 @@ Harmonia also has two modes: "day" and "night".
 **"Harmonia night"** is more suitable for use in dark environments:
 ![Harmonia "night"](./terminals/Harmonia-night-demo.png)
 
-## Palettes for Terminals
+Harmonia will eventually have two parts:
+1. Palettes, where colours follow certain principles and precise relations.
+2. Colour assignments, linking semantics of information to the colours from the palettes.
+
+## Harmonia for ANSI Terminals
+
+### Palettes
 
 [Palettes for KDE Konsole](./terminals/konsole/)
 
@@ -38,25 +41,27 @@ Harmonia also has two modes: "day" and "night".
 
 [Palettes for xfce4 terminal](./terminals/xfce4-terminal/)
 
-## Colour Assignment for Terminal Applications
+### Colour Assignments
 
 **TODO**
 
-## Colour Scheme for Text Documents
+## Harmonia for Documents
 
 **TODO**
 
-## Formal Requirements and Meeting Them
+### Colour Assignments
+
+**TODO**
+
+## Requirements for Palettes
 
 An ideal colour scheme should be designed with at least the following in mind:
 1. Must be gentle to eyes.
 2. Must have great contrast between text and background, at least when their colours are default.
-3. Must follow existing standards, where applicable.
-4. The design must take into account human perception and expected viewing environment.
-5. Where colours are in groups, the lightness and colourfulness of them must be the same.
-6. Choice of colours must be semantically reasonable, where applicable.
-7. Where applicable, should provide features like highlighting, which must also be semantically correct.
-8. Should not have vividly-coloured background.
+3. Must follow existing standards, where applicable. This is especially important in case of ANSI colours.
+4. The design must take into account human perception and expected viewing conditions.
+5. Where colours are in groups, the lightness and chroma of them must be the same.
+6. Should not have vividly-coloured background.
 
 So let's consider them one by one.
 
@@ -89,7 +94,7 @@ stark black nor stark white. Ideally, its luminance should be close to that of t
 
 ***Harmonia's approach***:
 
-Tere are two variants of the scheme: "day schema" for work in a well lit environment and
+There are two variants of the scheme: "day schema" for work in a well lit environment and
 "night" for work in a dark one.
 * The "day" scheme assumes reasonably lit surroundings (as in an average office) and has dark text on light
 (but not white) background.
@@ -170,7 +175,8 @@ text (of default colour) on coloured backgrounds too.
 Harmonia does not aim to be "symmetric" in a sense that accent colours stay the same when switching between "day" and
 "night" schemes. This is deliberate. There is no value in this symmetry whatsoever, as human visual perception is
 fundamentally asymmetric. Instead, harmonia aims to achieve practical and aesthetic benefits by maintaining sameness
-of lightness and colourfulness within each group of accent colours.
+of lightness and colourfulness within each group of colours as well as contrast-based relations between groups.
+The contrast is computed as a difference in luminance.
 
 ### Requirement #5: Sameness of Lightness and Colourfulness
 
@@ -189,11 +195,28 @@ Colours belonging to the same group are chosen to have the same J (lightness) an
 JCh coordinates. This also implies that the colours would have the same M (colourfulness), Q (brightness),
 and s (saturation) within the scope of the same group under the same viewing conditions.
 
-### Requirement #6: Semantically Reasonable Choice of Colours
+### Requirement #6: No Vividly-Coloured Background
+
+This is a result of a simple fact that the appearance of images depends on the colour of the surroundings.
+Vividly-coloured default background can distort the perception of text and likely reduce effective contrast.
+
+***Harmonia's approach***:
+
+When producing colours for the default text and background, colourfulness of zero is used.
+This means that the resulting colours are shades of gray. Although to be precise, the complex transformations on the
+path from CIECAM02's JCh space to sRGB mean that the resulting colours do not necessarily have identical values
+of red, green, and blue components.
+
+## Requirements for Colour Assignments
+
+1. The choice of colours must be semantically reasonable, where applicable.
+2. Where possible, should provide features like highlighting, which must also be semantically correct.
+
+### Requirement #1: Semantically Reasonable Choice of Colours
 
 Generally speaking, the meaning of colours is neither cross-cultural nor well-defined.
 
-However, there are some exceptions. Red colour means danger or immediate problem and that seems to be universtal.
+However, there are some exceptions. Red colour means danger or immediate problem and that seems to be universal.
 
 Orange and yellow are somewhat close to red. They may mean a less immediate problem or a warning.
 
@@ -204,10 +227,11 @@ It is believed that other colours have much less defined meanings.
 ***Harmonia's approach***:
 
 Where a colour is needed to show an error requiring an immediate attention, the brightest possible red is used.
-It is the only case where the colour is not supposed to be in line with others in lightness and colourfulness, it is OK
-for it to be outside of colour groups.
+In Harmonia for Documents there is a special red colour for this purpose, which is deliberately chosen in a way 
+which is breaking the harmony of other colours.
 
-Where an error exist but does not require an immediate attention, a red colour from a colour groups is to be used.
+Where an error exist but does not require an immediate attention, a red colour from a standard colour group is to be 
+used.
 
 Red is never used to show anything other than an error.
 
@@ -217,7 +241,7 @@ absolutely clear that these colours do not signal a warning.
 
 Green colour from a colour group is to be used where it is needed to show that something is working well.
 
-### Requirement #7: Support for Highlighting
+### Requirement #2: Support for Highlighting
 
 In some situations it is important to use highlighting. For example, the current line may need to be highlighted to
 provide a visual clue as to where the cursor is.
@@ -237,22 +261,11 @@ default background and the text below it is in emphasised default foreground.
 When a text is selected, the selection is using de-emphasised default foreground colour for the background and
 de-emphasised default background for the text.
 
-### Requirement #8: No Vividly-Coloured Background
-
-This is a result of a simple fact that the appearance of images depends on the colour of the surroundings.
-Vividly-coloured default background can distort the perception of text and likely reduce effective contrast.
-
-***Harmonia's approach***:
-
-When producing colours for the default text and background, colourfulness of zero is used.
-This means that the resulting colours are shades of gray. Although to be precise, the complex transformations on the
-path from CIECAM02's JCh space to sRGB mean that the resulting colours do not necessarily have identical values
-of red, green, and blue components.
 
 ## Acknowledgements
 
 This work is based on [CIECAM02 model](https://en.wikipedia.org/wiki/CIECAM02)
 by the International Commission on Illumination (CIE).
 
-Also special thanks for an excellent colour space library [colorspacious](https://github.com/njsmith/colorspacious).
+Special thanks for an excellent colour space library [colorspacious](https://github.com/njsmith/colorspacious).
 Without it, the work of creating palettes would have been very hard indeed.

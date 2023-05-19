@@ -5,25 +5,25 @@
 ! When starting XTerm, please add +pc option to disable PC-style of showing bold text as "bold" colour
 
 
-*Foreground: #D9D1D0
-*Background: #1C1A1A
-*color0: #292727
-*color1: #C36261
-*color2: #539654
-*color3: #A47C23
-*color4: #7183C4
-*color5: #AD69AE
-*color6: #17979C
-*color7: #E6DEDC
-*color8: #605C5B
-*color9: #FB817F
-*color10: #6EC26E
-*color11: #D4A130
-*color12: #94A9FC
-*color13: #DF89E1
-*color14: #22C3CA
-*color15: #FFF8F6
-*cursorColor: #FFF8F6
+*Foreground: #F9F2F0
+*Background: #3B3938
+*color0: #343232
+*color1: #C56564
+*color2: #569855
+*color3: #A77E26
+*color4: #7185C6
+*color5: #AD6BB2
+*color6: #17999E
+*color7: #EAE3E2
+*color8: #474444
+*color9: #DF7776
+*color10: #68AE66
+*color11: #BF9235
+*color12: #859ADF
+*color13: #C67FC9
+*color14: #32B0B4
+*color15: #FFFAF8
+*cursorColor: #FFFAF8
 *allowBoldFonts: true
-*pointerColor: #FFF8F6
-*pointerColorBackground: #0E0D0D
+*pointerColor: #FFFAF8
+*pointerColorBackground: #343232

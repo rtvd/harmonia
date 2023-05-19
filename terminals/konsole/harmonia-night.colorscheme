@@ -6,125 +6,125 @@
 
 
 [Background]
-Color=28,26,26
+Color=59,57,56
 Transparency=false
 
 [BackgroundIntense]
-Color=28,26,26
+Color=59,57,56
 Transparency=false
 
 [BackgroundFaint]
-Color=28,26,26
+Color=59,57,56
 Transparency=false
 
 
 [Color0]
-Color=41,39,39
+Color=52,50,50
 Transparency=false
 
 [Color0Intense]
-Color=96,92,91
+Color=71,68,68
 Transparency=false
 
 [Color0Faint]
-Color=36,34,34
+Color=55,53,53
 Transparency=false
 
 [Color1]
-Color=195,98,97
+Color=197,101,100
 Transparency=false
 
 [Color1Intense]
-Color=251,129,127
+Color=223,119,118
 Transparency=false
 
 [Color1Faint]
-Color=112,80,79
+Color=125,94,92
 Transparency=false
 
 [Color2]
-Color=83,150,84
+Color=86,152,85
 Transparency=false
 
 [Color2Intense]
-Color=110,194,110
+Color=104,174,102
 Transparency=false
 
 [Color2Faint]
-Color=80,95,75
+Color=93,108,89
 Transparency=false
 
 [Color3]
-Color=164,124,35
+Color=167,126,38
 Transparency=false
 
 [Color3Intense]
-Color=212,161,48
+Color=191,146,53
 Transparency=false
 
 [Color3Faint]
-Color=101,88,62
+Color=115,101,76
 Transparency=false
 
 [Color4]
-Color=113,131,196
+Color=113,133,198
 Transparency=false
 
 [Color4Intense]
-Color=148,169,252
+Color=133,154,223
 Transparency=false
 
 [Color4Faint]
-Color=87,89,106
+Color=100,103,119
 Transparency=false
 
 [Color5]
-Color=173,105,174
+Color=173,107,178
 Transparency=false
 
 [Color5Intense]
-Color=223,137,225
+Color=198,127,201
 Transparency=false
 
 [Color5Faint]
-Color=103,83,100
+Color=116,96,114
 Transparency=false
 
 [Color6]
-Color=23,151,156
+Color=23,153,158
 Transparency=false
 
 [Color6Intense]
-Color=34,195,202
+Color=50,176,180
 Transparency=false
 
 [Color6Faint]
-Color=74,95,95
+Color=87,108,109
 Transparency=false
 
 [Color7]
-Color=230,222,220
+Color=234,227,226
 Transparency=false
 
 [Color7Intense]
-Color=255,248,246
+Color=255,250,248
 Transparency=false
 
 [Color7Faint]
-Color=149,144,143
+Color=164,159,158
 Transparency=false
 
 
 [Foreground]
-Color=217,209,208
+Color=249,242,240
 Transparency=false
 
 [ForegroundIntense]
-Color=217,209,208
+Color=249,242,240
 Transparency=false
 
 [ForegroundFaint]
-Color=141,136,135
+Color=173,168,167
 Transparency=false
 
 [General]

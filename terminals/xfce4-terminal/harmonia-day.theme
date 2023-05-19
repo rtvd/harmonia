@@ -7,14 +7,14 @@
 
 [Scheme]
 Name=Harmonia (day)
-ColorForeground=#504F4E
-ColorBackground=#F5F0EF
+ColorForeground=#393939
+ColorBackground=#F4F3F3
 ColorCursorUseDefault=FALSE
-ColorCursor=#212121212020
-ColorCursorForeground=#FFFFFAFAF9F9
-ColorPalette=#010101;#9B504F;#417944;#82641E;#59699E;#89558C;#10797E;#BFBCBB;#3C3A3A;#EA7B7A;#65B76A;#C59932;#89A0ED;#CF82D4;#1FB8BF;#FBF6F5
+ColorCursor=#333333333333
+ColorCursorForeground=#FCFCFBFBFBFB
+ColorPalette=#333333;#C16766;#539858;#A37F2C;#6F86C6;#AA6EB2;#16999F;#E5E5E4;#454545;#DA7B79;#66AE6B;#BA943D;#839BDD;#C182C9;#35AFB5;#FCFBFB
 ColorBoldUseDefault=TRUE
 ColorBoldIsBright=FALSE
 ColorSelectionUseDefault=FALSE
-ColorSelection=#EAEAE6E6E5E5
-ColorSelectionBackground=#858582828282
+ColorSelection=#ECECEBEBEBEB
+ColorSelectionBackground=#3F3F3F3F3F3F
