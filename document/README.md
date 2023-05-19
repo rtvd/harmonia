@@ -2,11 +2,18 @@
 
 This type of [Harmonia](../) is designed for text documents and web pages.
 
-## CSS
+## Web
 
-For web pages please use these colour definitions:
-* [Harmonia "Day" CSS](./harmonia-day.css) - a "day" palette
-* [Harmonia "Night" CSS](./harmonia-night.css) - a "night" palette
-* [Harmonia CSS definitions](./harmonia-generic.css) - a set of helper classes (although you can easily use your own)
+For Web pages please use these colour definitions:
+* [Harmonia "Day" CSS](./web/harmonia-day.css) - a "day" palette
+* [Harmonia "Night" CSS](./web/harmonia-night.css) - a "night" palette
+* [Harmonia CSS definitions](./web/harmonia-generic.css) - a set of helper classes (although you can easily use your 
+  own)
 
-You can have a look at a demo [here](./demo/demo.html).
+## IDEs
+
+**TODO**
+
+## Text editors
+
+**TODO**

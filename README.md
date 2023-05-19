@@ -47,11 +47,7 @@ Harmonia will eventually have two parts:
 
 ## Harmonia for Documents
 
-**TODO**
-
-### Colour Assignments
-
-**TODO**
+[See here](./document/) for more information.
 
 ## Requirements for Palettes
 
