@@ -1,5 +1,5 @@
 # Harmonia
-*Harmonia, the colour scheme for humans* (pre-alpha version)
+*Harmonia, the colour scheme for humans* (draft version)
 
 ## Introduction
 

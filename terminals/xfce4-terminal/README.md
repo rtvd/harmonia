@@ -1,5 +1,4 @@
 # Harmonia for Xfce4 Terminal
-(pre-alpha version)
 
 ## Installation
 

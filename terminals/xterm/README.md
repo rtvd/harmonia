@@ -1,5 +1,4 @@
 # Harmonia for XTerm
-(pre-alpha version)
 
 ## Installation
 

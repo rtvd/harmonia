@@ -1,5 +1,4 @@
 # Harmonia for KDE Konsole
-(pre-alpha version)
 
 ## Installation
 
