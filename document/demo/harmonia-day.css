@@ -1,0 +1,48 @@
+
+:root {
+    --paper-normal: #F7F6F6;
+    --paper-emphasised: #FFFFFF;
+    --paper-red: #FFCFCD;
+    --paper-orange: #FBD3BA;
+    --paper-yellow: #ECDAB2;
+    --paper-chartreuse: #D9E2B8;
+    --paper-green: #C8E6C7;
+    --paper-turquoise: #C0E7D8;
+    --paper-cyan: #C0E6E7;
+    --paper-bluegreen: #C7E2F2;
+    --paper-blue: #D3DDF8;
+    --paper-violet: #E1D8F7;
+    --paper-magenta: #EED3F0;
+    --paper-pink: #F9CFE1;
+    --paper-grey: #DDDDDD;
+    --ink-faint: #C4C4C3;
+    --ink-normal: #3B3B3B;
+    --ink-err: #CF0000;
+    --ink-red: #944D4C;
+    --ink-orange: #8E542E;
+    --ink-yellow: #7D601E;
+    --ink-chartreuse: #616C27;
+    --ink-green: #3D7441;
+    --ink-turquoise: #10775E;
+    --ink-cyan: #057579;
+    --ink-bluegreen: #326F8D;
+    --ink-blue: #536698;
+    --ink-violet: #6E5B97;
+    --ink-magenta: #825288;
+    --ink-pink: #8F4C6D;
+    --ink-grey: #666565;
+    --mid-red: #D47170;
+    --mid-orange: #CC7B46;
+    --mid-yellow: #B38B2F;
+    --mid-chartreuse: #8D9C3D;
+    --mid-green: #5AA760;
+    --mid-turquoise: #1CAB89;
+    --mid-cyan: #0CA9AE;
+    --mid-bluegreen: #4BA0CB;
+    --mid-blue: #7993DA;
+    --mid-violet: #9E85D8;
+    --mid-magenta: #BB78C3;
+    --mid-pink: #CD709E;
+    --mid-grey: #939393;
+}
+
