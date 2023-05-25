@@ -91,10 +91,12 @@ There are various definitions of contract. As a useful guidance, World Wide Web 
 brightness and requires that the contrast between text and background must be at least 7:1 in order for the text to be
 well visible by people with minor visual impairments.
 You can read more about it [here](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html).
+Another approach defines contrast as a difference in luminance.
 
 ***Harmonia's approach***:
 
-The contrast between default text colour and default background colour is at least 7 to 1.
+The palettes are optimized to have high contrast between default or coloured text and default background.
+Luminance is defined via [CIELUV](https://en.wikipedia.org/wiki/CIELUV) colour space.
 
 ### Requirement #3: Follow Existing Standards
 
