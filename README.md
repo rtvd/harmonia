@@ -7,47 +7,33 @@ There is no shortage of colour schemes for terminals and other programs. So why 
 
 None that I saw felt satisfactory, and I have seen lots.
 When I started analysing the reasons for that, I came to a conclusion that a good colour scheme would have to take
-into account a variety of diverse factors, and there appears to be no colour scheme which does it satisfactory.
+into account a variety of diverse factors, and there appears to be no colour scheme which does it satisfactory from 
+my point of view.
 I am working with computers around 12 hours a day, so for me it is crucially important that my eyes stay healthy.
 That is why I have decided to make my humble attempt at improving the situation.
 
 My background (the relevant parts of it) is mostly in mathematics, biology, and computers.
 I am not a designer, and I assume that my eyes are not a perfect tool of measurement. So in order to create new palettes
 I have defined a set of requirements (see below) and followed them, relying primarily on mathematical relations rather
-than eyes.
-
-There are two types of Harmonia palettes: Harmonia for ANSI terminals and Harmonia for documents.
-
-Each palette has two versions: "day" (for normal use) and "night" (a light on dark scheme for very dark 
-environments):
+than my eyes.
 
 **"Harmonia day"** is for casual use in a well-lit environment:
-![Harmonia "day"](./terminals/Harmonia-day-demo.png)
+![Harmonia "day"](./terminals/Text-legibility-Harmonia-day.png)
 
 **"Harmonia night"** is more suitable for use in dark environments:
-![Harmonia "night"](./terminals/Harmonia-night-demo.png)
+![Harmonia "night"](./terminals/Text-legibility-Harmonia-night.png)
+
+## Implementations
 
 Harmonia will eventually have two parts:
 1. Palettes, where colours follow certain principles and precise relations.
 2. Colour assignments, linking semantics of information to the colours from the palettes.
 
-## Harmonia for ANSI Terminals
+Palettes has two versions: "day" (for normal use) and "night" (a light on dark scheme for very dark 
+environments):
 
-### Palettes
-
-[Palettes for KDE Konsole](./terminals/konsole/)
-
-[Palettes for xterm and similar application](./terminals/xterm/)
-
-[Palettes for xfce4 terminal](./terminals/xfce4-terminal/)
-
-### Colour Assignments
-
-**TODO**
-
-## Harmonia for Documents
-
-[See here](./document/) for more information.
+There are two types of Harmonia palettes:
+[Harmonia for ANSI terminals](./terminals/) and [Harmonia for documents](./document/).
 
 ## Requirements for Palettes
 

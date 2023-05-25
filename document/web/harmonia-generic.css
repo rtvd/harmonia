@@ -58,6 +58,10 @@ body {
     background: var(--paper-emphasised);
 }
 
+.faded-paper {
+    background: var(--paper-faded);
+}
+
 
 .red-ink {
     color: var(--ink-red);
