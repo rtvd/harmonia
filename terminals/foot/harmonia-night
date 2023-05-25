@@ -1,0 +1,29 @@
+# -*- conf -*-
+# Harmonia "night" colour scheme for foot terminal
+# Copyright (C) 2023 Denys Rtveliashvili <denys@rtveliashvili.name>
+# https://github.com/rtvd/harmonia
+
+[cursor]
+color=343232 fffaf8
+
+[colors]
+background=3b3938
+foreground=f9f2f0
+regular0=5f5c5b
+regular1=c47876
+regular2=709e6b
+regular3=ab8a49
+regular4=8290be
+regular5=af7eb0
+regular6=599fa1
+regular7=cdc7c6
+bright0=8c8887
+bright1=fea4a1
+bright2=9cd195
+bright3=e1ba6e
+bright4=b1c0f5
+bright5=e5abe5
+bright6=84d1d4
+bright7=fffaf8
+selection-foreground=413f3e
+selection-background=f1eae8

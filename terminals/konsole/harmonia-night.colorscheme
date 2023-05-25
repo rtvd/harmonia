@@ -10,7 +10,7 @@ Color=59,57,56
 Transparency=false
 
 [BackgroundIntense]
-Color=59,57,56
+Color=52,50,50
 Transparency=false
 
 [BackgroundFaint]
@@ -120,7 +120,7 @@ Color=249,242,240
 Transparency=false
 
 [ForegroundIntense]
-Color=249,242,240
+Color=255,250,248
 Transparency=false
 
 [ForegroundFaint]

@@ -1,0 +1,29 @@
+# -*- conf -*-
+# Harmonia "day" colour scheme for foot terminal
+# Copyright (C) 2023 Denys Rtveliashvili <denys@rtveliashvili.name>
+# https://github.com/rtvd/harmonia
+
+[cursor]
+color=fcfbfb 161616
+
+[colors]
+background=f4f3f3
+foreground=1c1b1b
+regular0=161616
+regular1=6d3837
+regular2=2c552f
+regular3=5b4615
+regular4=3c4a70
+regular5=5f3c64
+regular6=085659
+regular7=868686
+bright0=444444
+bright1=ab6967
+bright2=5c8c5e
+bright3=947a3f
+bright4=6e7fab
+bright5=986e9d
+bright6=458c90
+bright7=bfbfbf
+selection-foreground=ecebeb
+selection-background=212121

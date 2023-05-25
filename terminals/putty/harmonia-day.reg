@@ -4,11 +4,11 @@ Windows Registry Editor Version 5.00
 ; HKEY_USERS > S-1-5-21-.... > Software > SimonTatham > PuTTY > Sessions > ....
 [HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\Default%20Settings]
 "Colour0"="28,27,27"  ; Default foreground
-"Colour1"="28,27,27"  ; Default BOLD foreground
+"Colour1"="22,22,22"  ; Default BOLD foreground
 "Colour2"="244,243,243"  ; Default background
-"Colour3"="244,243,243"  ; Default BOLD background
+"Colour3"="252,251,251"  ; Default BOLD background
 "Colour4"="252,251,251"  ; Cursor text
-"Colour5"="33,33,33"  ; Cursor Colour
+"Colour5"="22,22,22"  ; Cursor Colour
 
 
 "Colour6"="22,22,22"     ; ANSI black
