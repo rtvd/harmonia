@@ -44,6 +44,31 @@ After that you could be select the colour preset by right-clicking on the termin
 * ["Harmonia day"](xfce4-terminal/harmonia-day.theme) (dark text on light background)
 * ["Harmonia night"](xfce4-terminal/harmonia-night.theme) (light text on dark background)
 
+### Harmonia for Gnome Terminal
+
+Gnome terminal does not provide an easy way of adding a palette. The following works for me.
+
+In a terminal, save the current configuration into a file:
+```bash
+dconf dump /org/gnome/terminal/ > gnome_terminal_colors.txt
+```
+
+Make a backup of the file:
+```bash
+cp gnome_terminal_colors.txt gnome_terminal_colors_BACKUP.txt
+```
+Edit `gnome_terminal_colors.txt` in your favourite text editor. There is one line which looks like `
+[legacy/profiles:/:b1dcc9dd-5262-4d8d-a863-c897e6d979b9]`. Keep it, and replace all the lines below with the text 
+from one of the provided configurations:
+
+* ["Harmonia day"](gnome-terminal/harmonia-day.txt) (dark text on light background)
+* ["Harmonia night"](gnome-terminal/harmonia-night.txt) (light text on dark background)
+
+Then load the new configuration into Gnome Terminal:
+```bash
+dconf load /org/gnome/terminal/ < gnome_terminal_colors.txt
+```
+
 ### Harmonia for XTerm
 
 Programs like xterm use the traditional configuration method where configuration files are loaded into X11 system

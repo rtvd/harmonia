@@ -1,0 +1,13 @@
+background-color='rgb(244,243,243)'
+bold-color='rgb(51,51,51)'
+bold-color-same-as-fg=false
+cursor-background-color='rgb(51,51,51)'
+cursor-colors-set=true
+cursor-foreground-color='rgb(252,251,251)'
+foreground-color='rgb(57,57,57)'
+highlight-background-color='rgb(63,63,63)'
+highlight-colors-set=true
+highlight-foreground-color='rgb(236,235,235)'
+palette=['rgb(51,51,51)', 'rgb(144,76,75)', 'rgb(60,113,64)', 'rgb(121,94,30)', 'rgb(81,99,147)', 'rgb(126,80,132)', 'rgb(13,114,118)', 'rgb(152,152,152)', 'rgb(92,92,92)', 'rgb(198,118,116)', 'rgb(102,161,104)', 'rgb(171,139,67)', 'rgb(125,145,199)', 'rgb(176,124,182)', 'rgb(70,161,166)', 'rgb(201,200,200)']
+use-theme-colors=false
+use-theme-transparency=false
