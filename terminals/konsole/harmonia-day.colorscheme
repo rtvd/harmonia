@@ -19,112 +19,112 @@ Transparency=false
 
 
 [Color0]
-Color=22,22,22
+Color=51,51,51
 Transparency=false
 
 [Color0Intense]
-Color=68,68,68
+Color=92,92,92
 Transparency=false
 
 [Color0Faint]
-Color=111,110,110
+Color=128,128,128
 Transparency=false
 
 [Color1]
-Color=109,56,55
+Color=144,76,75
 Transparency=false
 
 [Color1Intense]
-Color=171,105,103
+Color=198,118,116
 Transparency=false
 
 [Color1Faint]
-Color=153,137,136
+Color=172,150,150
 Transparency=false
 
 [Color2]
-Color=44,85,47
+Color=60,113,64
 Transparency=false
 
 [Color2Intense]
-Color=92,140,94
+Color=102,161,104
 Transparency=false
 
 [Color2Faint]
-Color=134,145,134
+Color=147,161,147
 Transparency=false
 
 [Color3]
-Color=91,70,21
+Color=121,94,30
 Transparency=false
 
 [Color3Intense]
-Color=148,122,63
+Color=171,139,67
 Transparency=false
 
 [Color3Faint]
-Color=147,141,127
+Color=164,156,137
 Transparency=false
 
 [Color4]
-Color=60,74,112
+Color=81,99,147
 Transparency=false
 
 [Color4Intense]
-Color=110,127,171
+Color=125,145,199
 Transparency=false
 
 [Color4Faint]
-Color=138,142,152
+Color=152,157,169
 Transparency=false
 
 [Color5]
-Color=95,60,100
+Color=126,80,132
 Transparency=false
 
 [Color5Intense]
-Color=152,110,157
+Color=176,124,182
 Transparency=false
 
 [Color5Faint]
-Color=148,138,149
+Color=165,152,166
 Transparency=false
 
 [Color6]
-Color=8,86,89
+Color=13,114,118
 Transparency=false
 
 [Color6Intense]
-Color=69,140,144
+Color=70,161,166
 Transparency=false
 
 [Color6Faint]
-Color=131,145,146
+Color=143,161,162
 Transparency=false
 
 [Color7]
-Color=134,134,134
+Color=152,152,152
 Transparency=false
 
 [Color7Intense]
-Color=191,191,191
+Color=201,200,200
 Transparency=false
 
 [Color7Faint]
-Color=178,178,177
+Color=189,188,188
 Transparency=false
 
 
 [Foreground]
-Color=28,27,27
+Color=57,57,57
 Transparency=false
 
 [ForegroundIntense]
-Color=22,22,22
+Color=51,51,51
 Transparency=false
 
 [ForegroundFaint]
-Color=114,114,114
+Color=132,132,132
 Transparency=false
 
 [General]

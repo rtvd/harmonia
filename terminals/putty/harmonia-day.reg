@@ -1,37 +1,35 @@
-Windows Registry Editor Version 5.00
-
 
 ; HKEY_USERS > S-1-5-21-.... > Software > SimonTatham > PuTTY > Sessions > ....
 [HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\Default%20Settings]
-"Colour0"="28,27,27"  ; Default foreground
-"Colour1"="22,22,22"  ; Default BOLD foreground
+"Colour0"="57,57,57"  ; Default foreground
+"Colour1"="51,51,51"  ; Default BOLD foreground
 "Colour2"="244,243,243"  ; Default background
 "Colour3"="252,251,251"  ; Default BOLD background
 "Colour4"="252,251,251"  ; Cursor text
-"Colour5"="22,22,22"  ; Cursor Colour
+"Colour5"="51,51,51"  ; Cursor Colour
 
 
-"Colour6"="22,22,22"     ; ANSI black
-"Colour7"="68,68,68"     ; ANSI bold black
+"Colour6"="51,51,51"     ; ANSI black
+"Colour7"="92,92,92"     ; ANSI bold black
 
-"Colour8"="109,56,55"     ; ANSI red
-"Colour9"="171,105,103"     ; ANSI bold red
+"Colour8"="144,76,75"     ; ANSI red
+"Colour9"="198,118,116"     ; ANSI bold red
 
-"Colour10"="44,85,47"     ; ANSI green
-"Colour11"="92,140,94"     ; ANSI bold green
+"Colour10"="60,113,64"     ; ANSI green
+"Colour11"="102,161,104"     ; ANSI bold green
 
-"Colour12"="91,70,21"     ; ANSI yellow
-"Colour13"="148,122,63"     ; ANSI bold yellow
+"Colour12"="121,94,30"     ; ANSI yellow
+"Colour13"="171,139,67"     ; ANSI bold yellow
 
-"Colour14"="60,74,112"     ; ANSI blue
-"Colour15"="110,127,171"     ; ANSI bold blue
+"Colour14"="81,99,147"     ; ANSI blue
+"Colour15"="125,145,199"     ; ANSI bold blue
 
-"Colour16"="95,60,100"     ; ANSI magenta
-"Colour17"="152,110,157"     ; ANSI bold magenta
+"Colour16"="126,80,132"     ; ANSI magenta
+"Colour17"="176,124,182"     ; ANSI bold magenta
 
-"Colour18"="8,86,89"     ; ANSI cyan
-"Colour19"="69,140,144"     ; ANSI bold cyan
+"Colour18"="13,114,118"     ; ANSI cyan
+"Colour19"="70,161,166"     ; ANSI bold cyan
 
-"Colour20"="134,134,134"     ; ANSI white
-"Colour21"="191,191,191"     ; ANSI bold white
+"Colour20"="152,152,152"     ; ANSI white
+"Colour21"="201,200,200"     ; ANSI bold white
 

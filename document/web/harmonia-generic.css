@@ -54,8 +54,8 @@ body {
     color: var(--ink-err);
 }
 
-.emphasised-paper {
-    background: var(--paper-emphasised);
+.stark-paper {
+    background: var(--paper-stark);
 }
 
 .faded-paper {

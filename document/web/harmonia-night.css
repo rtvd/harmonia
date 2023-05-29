@@ -1,7 +1,7 @@
 
 :root {
     --paper-normal: #3B3938;
-    --paper-emphasised: #343232;
+    --paper-stark: #343232;
     --paper-faded: #413F3E;
     --paper-red: #624241;
     --paper-orange: #604535;
@@ -18,7 +18,7 @@
     --paper-grey: #4E4C4B;
     --ink-faint: #656262;
     --ink-normal: #F9F2F0;
-    --ink-err: #EF0000;
+    --ink-err: #FF0000;
     --ink-red: #FEA4A1;
     --ink-orange: #F7AC7E;
     --ink-yellow: #E1BA6E;
